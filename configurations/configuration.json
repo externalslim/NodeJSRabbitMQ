@@ -1,0 +1,41 @@
+{
+    "dev": {
+
+        "RabbitMQ": {
+            "Host":"xx.xx.xx.xx",
+            "User":"guest",
+            "Password":"guest",
+            "Queues" : {
+                "MailQueue": "MailQueue"
+            }
+        },
+
+        "MailService": {
+            "Host":"xx.xx.xx.xx",
+            "Port":0,
+            "User":"xx@xx",
+            "Password":"xx"
+        }
+
+    },
+
+    "prod": {
+    
+        "RabbitMQ": {
+            "Host":"xx.xx.xx.xx",
+            "User":"guest",
+            "Password":"guest",
+            "Queues" : {
+                "MailQueue": "MailQueue"
+            }
+        },
+
+        "MailService": {
+            "Host":"xx.xx.xx.xx",
+            "Port":0,
+            "User":"xx@xx",
+            "Password":"xx"
+        }
+
+    }
+}
