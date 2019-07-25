@@ -81,7 +81,7 @@ Your mail body has to be like this:
     "cc@cc",
     "tt@tt"
   ],
-  "Body":'<p>Mail with support HTML</p>'
+  "Body":'Mail with support HTML'
 }
 
 Have fun!
