@@ -84,7 +84,7 @@ Your mail body has to be like this:
   "Body":'Mail with support HTML'
 }
 
-#Docker
+# Docker
 In the main root, you can see the Dockerfile. Move the folder from your server, go to the file directory (for ex. cd ./NodeJSRabbitMQ) and run this command -> docker build -t <tagname> .
 
 Surprise! Docker image is ready, check it with the command -> docker images
